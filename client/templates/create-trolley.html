@@ -1,0 +1,21 @@
+<ion-view title="Create Trolley Report" class="card-bg">
+
+    <ion-nav-buttons side="right">
+        <button class="button button-clear" ng-click="update()">Save</button>
+    </ion-nav-buttons>
+
+    <ion-content has-header="true" has-padding="true">
+
+            <form class="list list-inset" style="clear: both;margin-top: 0">
+                <label class="item item-input">
+                    <span class="input-label">Address</span>
+                    <input type="text" ng-model="trolley.Address__c"/>
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Condition</span>
+                    <input type="text" ng-model="trolley.Condition__c" />
+                </label>
+            </form>
+    </ion-content>
+
+</ion-view>
